@@ -39,6 +39,8 @@
 - ILSVRC
 
 [人工知能](https://ja.wikipedia.org/wiki/%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD) > [機械学習](https://ja.wikipedia.org/wiki/%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92) > [ニューラルネットワーク](https://ja.wikipedia.org/wiki/%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF) > [ディープラーニング](https://ja.wikipedia.org/wiki/%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0)
+- [モラベックのパラドックス](https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%A9%E3%83%99%E3%83%83%E3%82%AF%E3%81%AE%E3%83%91%E3%83%A9%E3%83%89%E3%83%83%E3%82%AF%E3%82%B9)  
+子供のできることほど人工知能には難しい
 
 ## 人物
 - [ジェフリー・ヒントン](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%95%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%92%E3%83%B3%E3%83%88%E3%83%B3)
@@ -102,10 +104,10 @@
 - リッジ回帰
 - Elastic Net
 
-## ディーブラーニング
+## ディープラーニング
 - 多層パーセプトロン
 - オートエンコーダ
-- ディーブオートエンコーダ
+- ディープオートエンコーダ
 - 事前学習
 - ファインチューニング
 
@@ -150,3 +152,17 @@
 
 ### 深層生成モデル
 
+## 事例
+- [BRETT: Deep-learning robot](https://engineering.berkeley.edu/brett/)
+- [AlphaGo](https://ja.wikipedia.org/wiki/AlphaGo)
+- [Google DeepMind's Deep Q-learning playing Atari](https://deepmind.com/research/publications/playing-atari-deep-reinforcement-learning)
+
+# :tv: Youtube
+
+## 松尾豊
+- [人工知能の未来～ディープラーニングの先にあるもの](https://www.youtube.com/watch?v=7bvfl_M5vPQ)
+- [人工知能は人間を超えるか ディープラーニングの先にあるもの](https://www.youtube.com/watch?v=lqywEafvq_Q)
+- [【SoftBank World 2016】 人工知能は人間を超えるか](https://www.youtube.com/watch?v=7bvfl_M5vPQ)
+
+## NDIVIA
+- [ディープ・ラーニング最新技術情報 何故GPUはディープラーニングに向いているか]
