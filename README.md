@@ -145,10 +145,30 @@
 - AlexNet
 - VGG
 - GoogLeNet
+- Skip connection  
+層を飛び越えた結合
+- 転移学習  
+学習済みのネットワークを利用して新しいタスクの識別に利用すること
 
 ### RNN: リカレントニューラルネットワーク
+時系列データを入力して、データから時間依存性を学習できるモデル
+
+- Backpropagation Through Time(BPTT)
+- 入力重み衝突
+- 出力重み衝突
+- LSTM(Long Short-Term Memory)
+- GRU(Gated Recurrent Unit)
+- Bidirectional RNN  
+LSTM を2つ組み合わせることで、未来から過去方向も含めて学習できるモデル
+- Sequence-to-Sequence  
+入力が時系列なら出力も時系列で予測する。自然言語処理を中心に研究されている分野。
+- RNN Encoder–Decoder
+- Attention  
+過去の時点それぞれの重みを学習することで、時間の重みをネットワークに組み込む。
 
 ### 深層強化学習
+- 強化学習  
+行動を学習する仕組み。目的とする報酬（スコア）を最大化するためにはどのような行動をとっていけばいいかを学習していく。
 
 ### 深層生成モデル
 
