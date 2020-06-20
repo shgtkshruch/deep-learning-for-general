@@ -165,4 +165,4 @@
 - [【SoftBank World 2016】 人工知能は人間を超えるか](https://www.youtube.com/watch?v=7bvfl_M5vPQ)
 
 ## NDIVIA
-- [ディープ・ラーニング最新技術情報 何故GPUはディープラーニングに向いているか]
+- [ディープ・ラーニング最新技術情報 何故GPUはディープラーニングに向いているか](https://www.youtube.com/watch?v=1aHQ2tVVlj8)
