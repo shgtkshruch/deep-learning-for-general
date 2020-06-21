@@ -1,6 +1,6 @@
 # Deep Learning for General
 
-## 歴史
+## :scroll: 歴史
 - [ダートマス会議](https://ja.wikipedia.org/wiki/%E3%83%80%E3%83%BC%E3%83%88%E3%83%9E%E3%82%B9%E4%BC%9A%E8%AD%B0)  
 1956年7月から8月にかけて開催された[ジョン・マッカーシー](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%83%E3%82%AB%E3%83%BC%E3%82%B7%E3%83%BC)が主催した会議で、史上初めて「人工知能（Artificial Intelligence）」という用語が使われた。
 - ENIAC(エニアック)  
@@ -62,7 +62,7 @@
 ### 第2次AIブーム（1980 - 1987: 知識表現による人工知能）
 エキスパートシステムにより問題を解く人工知能が台頭。しかし専門家の知識の定式化は難しく、複雑な問題が解けるようにならなかった。
 
-- エキスパートシステム　　
+- エキスパートシステム  
 専門家の知識をそのまま人工知能に移植する事により、さまざまな問題を解決するアイディア
 
 - [MYCIN(マイシン)](https://ja.wikipedia.org/wiki/Mycin)  
@@ -127,7 +127,7 @@ if-then 文よって記述できる知識の集まり
 
 - 特徴量設計
 
-## 機械学習
+## 🖥️ 機械学習
 - [ネオコグニトロン](https://ja.wikipedia.org/wiki/%E3%83%8D%E3%82%AA%E3%82%B3%E3%82%B0%E3%83%8B%E3%83%88%E3%83%AD%E3%83%B3)
 
 ### 代表的な手法
@@ -175,7 +175,7 @@ if-then 文よって記述できる知識の集まり
 - リッジ回帰
 - Elastic Net
 
-## ディープラーニング
+## :robot: ディープラーニング
 - ニューロン  
 単純な数値予測ができ予測器。ニューラルネットワークの最小単位
 
@@ -260,7 +260,7 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 - GAN(敵対的生成ネットワーク)
 - DCGAN(Deep Convolutional GAN)
 
-## ディープラーニングの研究分野
+## 🔬 ディープラーニングの研究分野
 
 ### 画像認識分野
 - AlexNet(アレックスネット)
@@ -296,7 +296,7 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 - セルフプレイ
 - RAINBOWモデル
 
-## 法律・倫理・現行の議論
+## 🏛️ 法律・倫理・現行の議論
 - プライバシーバイ・デザイン
 
 - 倫理的に調和された設計  
@@ -335,17 +335,17 @@ Google Photos がアフリカ系の女性に「ゴリラ」とラベル付をし
 - [人間中心のＡＩ社会原則検討会議](https://www8.cao.go.jp/cstp/tyousakai/humanai/index.html)
 
 
-## 事例
+## 🏢 事例
 - [BRETT: Deep-learning robot](https://engineering.berkeley.edu/brett/)
 - [AlphaGo](https://ja.wikipedia.org/wiki/AlphaGo)
 - [Google DeepMind's Deep Q-learning playing Atari](https://deepmind.com/research/publications/playing-atari-deep-reinforcement-learning)
 
-# :tv: Youtube
+## :tv: Youtube
 
-## 松尾豊
+### 松尾豊
 - [人工知能の未来～ディープラーニングの先にあるもの](https://www.youtube.com/watch?v=7bvfl_M5vPQ)
 - [人工知能は人間を超えるか ディープラーニングの先にあるもの](https://www.youtube.com/watch?v=lqywEafvq_Q)
 - [【SoftBank World 2016】 人工知能は人間を超えるか](https://www.youtube.com/watch?v=7bvfl_M5vPQ)
 
-## NDIVIA
+### NDIVIA
 - [ディープ・ラーニング最新技術情報 何故GPUはディープラーニングに向いているか](https://www.youtube.com/watch?v=1aHQ2tVVlj8)
