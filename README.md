@@ -2,13 +2,14 @@
 
 ## :scroll: 歴史
 - [ダートマス会議](http://www.dartmouth.edu/~ai50/homepage.html)  
-1956年7月から8月にかけて開催された[ジョン・マッカーシー](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%83%E3%82%AB%E3%83%BC%E3%82%B7%E3%83%BC)が主催した会議で、史上初めて「人工知能（Artificial Intelligence）」という用語が使われた。
+1956年7月から8月にかけて開催された[ジョン・マッカーシー](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%83%A7%E3%83%B3%E3%83%BB%E3%83%9E%E3%83%83%E3%82%AB%E3%83%BC%E3%82%B7%E3%83%BC)が主催した会議。  
+史上初めて「人工知能（Artificial Intelligence）」という用語が使われた。
 
-- [ENIAC(エニアック)](https://ja.wikipedia.org/wiki/ENIAC)  
+- [ENIAC (エニアック)](https://ja.wikipedia.org/wiki/ENIAC)  
 1946年にアメリカで開発された世界初のコンピュータ
 
 ### 人工知能のレベル
-- 人工知能（AI: Artificial Intelligence)  
+- 人工知能 (AI: Artificial Intelligence)  
 コンピュータによる知的な情報処理システムを設計、または実現するための研究分野。研究者によって定義は異なる。
 
 - 機械学習  
@@ -51,16 +52,16 @@
 - トイ・プロブレム  
 迷路やオセロなど、機械にときやすい簡単な問題
 
-- [ELIZA(イライザ)](https://ja.wikipedia.org/wiki/ELIZA)  
+- [ELIZA (イライザ)](https://ja.wikipedia.org/wiki/ELIZA)  
 1966年に発表された自然言語処理プログラム。人工無脳の起源となった。
 
 - [PARRY](https://ja.wikipedia.org/wiki/PARRY)  
 1972年に開発された ELIZA と共に有名な初期の会話ボット。ELIZA との最初の会話記録は [RFC439](https://tools.ietf.org/html/rfc439) に残されている。
 
-- [BFS(幅優先探索)](https://ja.wikipedia.org/wiki/%E5%B9%85%E5%84%AA%E5%85%88%E6%8E%A2%E7%B4%A2)  
+- [BFS (幅優先探索)](https://ja.wikipedia.org/wiki/%E5%B9%85%E5%84%AA%E5%85%88%E6%8E%A2%E7%B4%A2)  
 隣接するノードを優先して探索するアルゴリズム
 
-- [DFS(深さ優先探索)](https://ja.wikipedia.org/wiki/%E6%B7%B1%E3%81%95%E5%84%AA%E5%85%88%E6%8E%A2%E7%B4%A2)  
+- [DFS (深さ優先探索)](https://ja.wikipedia.org/wiki/%E6%B7%B1%E3%81%95%E5%84%AA%E5%85%88%E6%8E%A2%E7%B4%A2)  
 目的のノードが見つかるか子のないノードに行き着くまで、深く探索するアルゴリズム
 
 - ハノイの塔  
@@ -83,7 +84,7 @@
 - エキスパートシステム  
 専門家の知識をそのまま人工知能に移植する事により、さまざまな問題を解決するアイディア
 
-- [MYCIN(マイシン)](https://ja.wikipedia.org/wiki/Mycin)  
+- [MYCIN (マイシン)](https://ja.wikipedia.org/wiki/Mycin)  
 1970年代初めに5、6年の歳月をかけて開発された抗生物質を処方するAI
 
 - [DENDRAL](https://ja.wikipedia.org/wiki/Dendral)  
@@ -133,7 +134,7 @@ if-then 文よって記述できる知識の集まり
 - 内部表現  
 ディープラーニングにより自動的に獲得された特徴量。
 
-- [ILSVRC(Large Scale Visual Recognition Challenge)](http://www.image-net.org/challenges/LSVRC/)  
+- [ILSVRC (Large Scale Visual Recognition Challenge)](http://www.image-net.org/challenges/LSVRC/)  
 2010年から始まった ImageNet データセットを用いた画像認識の精度を競うコンペ。  
 2012年、トロント大学の[ジェフリー・ヒントン](https://ja.wikipedia.org/wiki/%E3%82%B8%E3%82%A7%E3%83%95%E3%83%AA%E3%83%BC%E3%83%BB%E3%83%92%E3%83%B3%E3%83%88%E3%83%B3)教授のチームが [AlexNet](https://en.wikipedia.org/wiki/AlexNet) と呼ばれる畳み込みニューラルネットワーク(CNN)で[2位以下を10%以上引き離す結果](http://image-net.org/challenges/LSVRC/2012/results.html)を出す。これがきっかけとなり、ディーブラーニングが一気に脚光を浴びる。
 
@@ -246,8 +247,8 @@ if-then 文よって記述できる知識の集まり
 - 主成分分析  
 データから「主成分」という新たなデータを求める、線形な次元削減の手法。
 
-- [k-means(k平均法)](https://www.albert2005.co.jp/knowledge/data_mining/cluster/non-hierarchical_clustering)  
-異なる性質のものが混ざり合った集団から、互いに似た性質を持つものを集め、クラスターを作る方法の1つ。　　
+- [k-means (k平均法)](https://www.albert2005.co.jp/knowledge/data_mining/cluster/non-hierarchical_clustering)  
+異なる性質のものが混ざり合った集団から、互いに似た性質を持つものを集め、クラスターを作る方法の1つ。  
 あらかじめいくつのクラスターに分けるかを決め、決めた数の塊（排他的部分集合）にサンプルを分割する。
 
 ### 手法の評価
@@ -273,7 +274,7 @@ if-then 文よって記述できる知識の集まり
 あらかじめ手元にあり、正解ラベルがあることが約束されているデータ
 
 - [交差検証](https://ja.wikipedia.org/wiki/%E4%BA%A4%E5%B7%AE%E6%A4%9C%E8%A8%BC)  
-テストデータに用いるブロックを順に移動しながらホールドアウト法による検証を行う。　　
+テストデータに用いるブロックを順に移動しながらホールドアウト法による検証を行う。  
 計算量が多くなるなど欠点があるが、データ数が少ない場合にもホールドアウト法と比較して信頼できる精度が偉えるなどの理由で、精度検証において最もよく用いられる。
 
 - k-分割交差検証  
@@ -320,11 +321,11 @@ if-then 文よって記述できる知識の集まり
 
 
 ### 活性化関数
-- tanh（ハイパボリックタンジェント関数）  
+- [tanh (ハイパボリックタンジェント関数)](https://ja.wikipedia.org/wiki/%E5%8F%8C%E6%9B%B2%E7%B7%9A%E9%96%A2%E6%95%B0)  
 
-- ReLU関数  
+- [ReLU関数](https://ja.wikipedia.org/wiki/%E6%AD%A3%E8%A6%8F%E5%8C%96%E7%B7%9A%E5%BD%A2%E9%96%A2%E6%95%B0)  
 
-- Leaky ReLu関数  
+- Leaky ReLU関数  
 
 - Parametric ReLU  
 
@@ -332,9 +333,9 @@ if-then 文よって記述できる知識の集まり
 
 
 ### 学習率の最適化
-- 勾配降下法  
+- [勾配降下法](https://ja.wikipedia.org/wiki/%E7%A2%BA%E7%8E%87%E7%9A%84%E5%8B%BE%E9%85%8D%E9%99%8D%E4%B8%8B%E6%B3%95)  
 
-- 誤差関数  
+- [誤差関数](https://ja.wikipedia.org/wiki/%E8%AA%A4%E5%B7%AE%E9%96%A2%E6%95%B0)  
 
 - Adagrad  
 
@@ -389,15 +390,15 @@ if-then 文よって記述できる知識の集まり
 ### RNN: リカレントニューラルネットワーク
 時系列データを入力して、データから時間依存性を学習できるモデル
 
-- Backpropagation Through Time(BPTT)  
+- Backpropagation Through Time (BPTT)  
 
 - 入力重み衝突  
 
 - 出力重み衝突  
 
-- LSTM(Long Short-Term Memory)  
+- LSTM (Long Short-Term Memory)  
 
-- GRU(Gated Recurrent Unit)  
+- GRU (Gated Recurrent Unit)  
 
 - Bidirectional RNN  
 LSTM を2つ組み合わせることで、未来から過去方向も含めて学習できるモデル
@@ -421,17 +422,17 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 
 - 生成モデル  
 
-- VAE(変分オートエンコーダ)  
+- VAE (変分オートエンコーダ)  
 
-- GAN(敵対的生成ネットワーク)  
+- GAN (敵対的生成ネットワーク)  
 
-- DCGAN(Deep Convolutional GAN)  
+- DCGAN (Deep Convolutional GAN)  
 
 
 ## 🔬 ディープラーニングの研究分野
 
 ### 画像認識分野
-- AlexNet(アレックスネット)  
+- AlexNet (アレックスネット)  
 
 - R-CNN  
 
@@ -439,13 +440,13 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 
 - faster RCNN  
 
-- YOLO(You Only Look Once)  
+- YOLO (You Only Look Once)  
 
-- SSD(Single Shot Detector)  
+- SSD (Single Shot Detector)  
 
 - セマンティックセグメンテーション  
 
-- FCN(完全畳み込みネットワーク)  
+- FCN (完全畳み込みネットワーク)  
 
 - アンサンプリング  
 
@@ -469,18 +470,18 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 
 - 普遍埋め込みモデル  
 
-- NIC(ニューラル画像脚注付け)  
+- NIC (ニューラル画像脚注付け)  
 
-- NTM(ニューラルチューリングマシン)  
+- NTM (ニューラルチューリングマシン)  
 
 
 ### 音声認識
 - WaveNet
 
 ### 強化学習
-- DQN(Deep Q-Network)  
+- DQN (Deep Q-Network)  
 
-- MCTS(モンテカルロ木探索)  
+- MCTS (モンテカルロ木探索)  
 
 - AlphaGo Zero  
 
@@ -511,7 +512,7 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 
 - 協調フィルタリング  
 
-- [FAT(Fairness, Accountability, and Transparency)](https://www.fatml.org/)  
+- [FAT (Fairness, Accountability, and Transparency)](https://www.fatml.org/)  
 
 - 敵対的な攻撃  
 
