@@ -4,7 +4,7 @@
 #include "chapter/machine-learning.md"
 #include "chapter/deep-learning.md"
 #include "chapter/deep-learning-study.md"
+#include "chapter/law.md"
 #include "chapter/example.md"
-#include "chapter/low.md"
 #include "chapter/movie.md"
 #include "chapter/reference.md"

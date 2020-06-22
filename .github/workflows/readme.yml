@@ -1,0 +1,20 @@
+on: push
+name: Build README.md
+jobs:
+  generateTOC:
+    name: Build README.md
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+      - run: yarn install
+      - run: yarn build
+      - uses: EndBug/add-and-commit@v4
+        with:
+          add: 'README.md'
+          message: "docs: Build README.md"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
