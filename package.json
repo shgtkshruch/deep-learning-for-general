@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/shgtkshruch/deep-learning-for-general/issues"
   },
-  "homepage": "https://github.com/shgtkshruch/deep-learning-for-general#readme"
+  "homepage": "https://github.com/shgtkshruch/deep-learning-for-general#readme",
+  "dependencies": {
+    "markdown-include": "^0.4.3"
+  }
 }
