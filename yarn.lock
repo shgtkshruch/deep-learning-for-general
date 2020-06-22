@@ -694,9 +694,15 @@ escape-string-regexp@^1.0.5:
   integrity sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ=
 
 escodegen@^1.6.1:
+<<<<<<< HEAD
   version "1.14.3"
   resolved "https://registry.yarnpkg.com/escodegen/-/escodegen-1.14.3.tgz#4e7b81fba61581dc97582ed78cab7f0e8d63f503"
   integrity sha512-qFcX0XJkdg+PB3xjZZG/wKSuT1PnQWx57+TVSjIMmILd2yC/6ByYElPwJnslDsuWuSAp4AwJGumarAAmJch5Kw==
+=======
+  version "1.14.2"
+  resolved "https://registry.yarnpkg.com/escodegen/-/escodegen-1.14.2.tgz#14ab71bf5026c2aa08173afba22c6f3173284a84"
+  integrity sha512-InuOIiKk8wwuOFg6x9BQXbzjrQhtyXh46K9bqVTPzSo2FnyMBaYGBMC6PhQy7yxxil9vIedFBweQBMK74/7o8A==
+>>>>>>> npm init, yarn honkit init
   dependencies:
     esprima "^4.0.1"
     estraverse "^4.2.0"
@@ -1376,6 +1382,7 @@ markdown-escape@^1.0.1:
   resolved "https://registry.yarnpkg.com/markdown-escape/-/markdown-escape-1.1.0.tgz#228c932a47af251bb0a2d18d6001a235403777f2"
   integrity sha512-f1+ARFbzLrBdC0Lj30uREn+zthrK/h1PO5UhN5IMDQvI2lSFn+8U06a5LHaxxYMhHD0mJoJ2BROJ/Sju5aw6+g==
 
+<<<<<<< HEAD
 markdown-include@^0.4.3:
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/markdown-include/-/markdown-include-0.4.3.tgz#bac6555402c6da93a0f52952225dfb9a6ccc731b"
@@ -1383,6 +1390,8 @@ markdown-include@^0.4.3:
   dependencies:
     q "^1.2.0"
 
+=======
+>>>>>>> npm init, yarn honkit init
 memoize-one@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/memoize-one/-/memoize-one-5.1.1.tgz#047b6e3199b508eaec03504de71229b8eb1d75c0"
@@ -1648,7 +1657,11 @@ punycode@^2.1.0, punycode@^2.1.1:
   resolved "https://registry.yarnpkg.com/punycode/-/punycode-2.1.1.tgz#b58b010ac40c22c5657616c8d2c2c02c7bf479ec"
   integrity sha512-XRsRjdf+j5ml+y/6GKHPZbrF/8p2Yga0JPtdqTIY2Xe5ohJPD9saDJJLPvp9+NSBprVvevdXZybnj2cv8OEd0A==
 
+<<<<<<< HEAD
 q@1.5.1, q@^1.1.2, q@^1.2.0:
+=======
+q@1.5.1, q@^1.1.2:
+>>>>>>> npm init, yarn honkit init
   version "1.5.1"
   resolved "https://registry.yarnpkg.com/q/-/q-1.5.1.tgz#7e32f75b41381291d04611f1bf14109ac00651d7"
   integrity sha1-fjL3W0E4EpHQRhHxvxQQmsAGUdc=
