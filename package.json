@@ -21,6 +21,7 @@
   "homepage": "https://github.com/shgtkshruch/deep-learning-for-general#readme",
   "dependencies": {
     "honkit": "^3.3.10",
-    "markdown-include": "^0.4.3"
+    "markdown-include": "^0.4.3",
+    "gitbook-plugin-anchors": "^0.7.1"
   }
 }
