@@ -2,40 +2,6 @@
 
 <!-- START doctoc generated TOC please keep comment here to allow auto update -->
 <!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**
-
-- [:scroll: 歴史](#scroll-%E6%AD%B4%E5%8F%B2)
-  - [人工知能のレベル](#%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%AE%E3%83%AC%E3%83%99%E3%83%AB)
-  - [第1次AIブーム（1956 - 1974: 探索・推論による人工知能）](#%E7%AC%AC1%E6%AC%A1ai%E3%83%96%E3%83%BC%E3%83%A01956---1974-%E6%8E%A2%E7%B4%A2%E3%83%BB%E6%8E%A8%E8%AB%96%E3%81%AB%E3%82%88%E3%82%8B%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD)
-  - [第2次AIブーム（1980 - 1987: 知識表現による人工知能）](#%E7%AC%AC2%E6%AC%A1ai%E3%83%96%E3%83%BC%E3%83%A01980---1987-%E7%9F%A5%E8%AD%98%E8%A1%A8%E7%8F%BE%E3%81%AB%E3%82%88%E3%82%8B%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD)
-  - [第3次AIブーム（2000 -: 機械学習と深層学習による人工知能）](#%E7%AC%AC3%E6%AC%A1ai%E3%83%96%E3%83%BC%E3%83%A02000---%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92%E3%81%A8%E6%B7%B1%E5%B1%A4%E5%AD%A6%E7%BF%92%E3%81%AB%E3%82%88%E3%82%8B%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD)
-- [:ghost: 人工知能分野の問題](#ghost-%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E5%88%86%E9%87%8E%E3%81%AE%E5%95%8F%E9%A1%8C)
-- [:robot: 機械学習](#robot-%E6%A9%9F%E6%A2%B0%E5%AD%A6%E7%BF%92)
-  - [代表的な手法](#%E4%BB%A3%E8%A1%A8%E7%9A%84%E3%81%AA%E6%89%8B%E6%B3%95)
-  - [データの前処理](#%E3%83%87%E3%83%BC%E3%82%BF%E3%81%AE%E5%89%8D%E5%87%A6%E7%90%86)
-  - [教師あり学習](#%E6%95%99%E5%B8%AB%E3%81%82%E3%82%8A%E5%AD%A6%E7%BF%92)
-  - [教師なし学習](#%E6%95%99%E5%B8%AB%E3%81%AA%E3%81%97%E5%AD%A6%E7%BF%92)
-  - [手法の評価](#%E6%89%8B%E6%B3%95%E3%81%AE%E8%A9%95%E4%BE%A1)
-- [:globe_with_meridians: ディープラーニング](#globe_with_meridians-%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0)
-  - [活性化関数](#%E6%B4%BB%E6%80%A7%E5%8C%96%E9%96%A2%E6%95%B0)
-  - [学習の流れ](#%E5%AD%A6%E7%BF%92%E3%81%AE%E6%B5%81%E3%82%8C)
-  - [学習率の最適化](#%E5%AD%A6%E7%BF%92%E7%8E%87%E3%81%AE%E6%9C%80%E9%81%A9%E5%8C%96)
-  - [テクニック](#%E3%83%86%E3%82%AF%E3%83%8B%E3%83%83%E3%82%AF)
-  - [CNN: 畳み込みニューラルネットワーク](#cnn-%E7%95%B3%E3%81%BF%E8%BE%BC%E3%81%BF%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF)
-  - [RNN: リカレントニューラルネットワーク](#rnn-%E3%83%AA%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%88%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF)
-  - [深層強化学習](#%E6%B7%B1%E5%B1%A4%E5%BC%B7%E5%8C%96%E5%AD%A6%E7%BF%92)
-  - [深層生成モデル](#%E6%B7%B1%E5%B1%A4%E7%94%9F%E6%88%90%E3%83%A2%E3%83%87%E3%83%AB)
-- [🔬 ディープラーニングの研究分野](#-%E3%83%87%E3%82%A3%E3%83%BC%E3%83%97%E3%83%A9%E3%83%BC%E3%83%8B%E3%83%B3%E3%82%B0%E3%81%AE%E7%A0%94%E7%A9%B6%E5%88%86%E9%87%8E)
-  - [画像認識分野](#%E7%94%BB%E5%83%8F%E8%AA%8D%E8%AD%98%E5%88%86%E9%87%8E)
-  - [自然言語処理](#%E8%87%AA%E7%84%B6%E8%A8%80%E8%AA%9E%E5%87%A6%E7%90%86)
-  - [音声認識](#%E9%9F%B3%E5%A3%B0%E8%AA%8D%E8%AD%98)
-  - [強化学習](#%E5%BC%B7%E5%8C%96%E5%AD%A6%E7%BF%92)
-- [🏛️ 法律・倫理・現行の議論](#-%E6%B3%95%E5%BE%8B%E3%83%BB%E5%80%AB%E7%90%86%E3%83%BB%E7%8F%BE%E8%A1%8C%E3%81%AE%E8%AD%B0%E8%AB%96)
-- [🏢 事例](#-%E4%BA%8B%E4%BE%8B)
-- [:tv: Youtube](#tv-youtube)
-  - [松尾豊](#%E6%9D%BE%E5%B0%BE%E8%B1%8A)
-  - [NDIVIA](#ndivia)
-- [:books: 参考文献](#books-%E5%8F%82%E8%80%83%E6%96%87%E7%8C%AE)
 
 <!-- END doctoc generated TOC please keep comment here to allow auto update -->
 
@@ -204,7 +170,6 @@ if-then 文よって記述できる知識の集まり
 - [He saw a woman in the garden with a telescope](https://www.deepl.com/ja/translator#en/ja/He%20saw%20a%20woman%20in%20the%20garden%20with%20a%20telescope)
 
 - 特徴量設計  
-
 
 ## :robot: 機械学習
 
@@ -643,7 +608,6 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 
 - DCGAN (Deep Convolutional GAN)  
 
-
 ## 🔬 ディープラーニングの研究分野
 
 ### 画像認識分野
@@ -704,6 +668,10 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 
 - RAINBOWモデル  
 
+## 🏢 事例
+- [BRETT: Deep-learning robot](https://engineering.berkeley.edu/brett/)
+- [AlphaGo](https://ja.wikipedia.org/wiki/AlphaGo)
+- [Google DeepMind's Deep Q-learning playing Atari](https://deepmind.com/research/publications/playing-atari-deep-reinforcement-learning)
 
 ## 🏛️ 法律・倫理・現行の議論
 - プライバシーバイ・デザイン
@@ -760,13 +728,6 @@ Google Photos がアフリカ系の女性に「ゴリラ」とラベル付をし
 - [AIネットワーク社会推進会議](https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/index.html)  
 
 - [人間中心のＡＩ社会原則検討会議](https://www8.cao.go.jp/cstp/tyousakai/humanai/index.html)  
-
-
-
-## 🏢 事例
-- [BRETT: Deep-learning robot](https://engineering.berkeley.edu/brett/)
-- [AlphaGo](https://ja.wikipedia.org/wiki/AlphaGo)
-- [Google DeepMind's Deep Q-learning playing Atari](https://deepmind.com/research/publications/playing-atari-deep-reinforcement-learning)
 
 ## :tv: Youtube
 
