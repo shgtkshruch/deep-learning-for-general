@@ -1,0 +1,33 @@
+on:
+  push:
+    pathes:
+      - 'chapters/**'
+
+name: Build README.md
+jobs:
+  generateTOC:
+    name: Build README.md
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Setup Node
+        uses: actions/setup-node@v1
+        with:
+          node-version: 14
+
+      - run: yarn install
+
+      - name: Compile markdown files
+        run: yarn build
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'docs: build README.md'
+        env:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+        
+      - name: Generate TOC
+        uses: technote-space/toc-generator@v2
+        with:
+          GITHUB_TOKEN: ${{ secrets.ACCESS_TOKEN }}

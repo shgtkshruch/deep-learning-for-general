@@ -207,7 +207,6 @@ if-then 文よって記述できる知識の集まり
 
 - 特徴量設計  
 
-
 ## :robot: 機械学習
 
 ### 代表的な手法
@@ -645,7 +644,6 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 
 - DCGAN (Deep Convolutional GAN)  
 
-
 ## 🔬 ディープラーニングの研究分野
 
 ### 画像認識分野
@@ -706,7 +704,6 @@ LSTM を2つ組み合わせることで、未来から過去方向も含めて�
 
 - RAINBOWモデル  
 
-
 ## 🏛️ 法律・倫理・現行の議論
 - プライバシーバイ・デザイン
 
@@ -762,8 +759,6 @@ Google Photos がアフリカ系の女性に「ゴリラ」とラベル付をし
 - [AIネットワーク社会推進会議](https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/index.html)  
 
 - [人間中心のＡＩ社会原則検討会議](https://www8.cao.go.jp/cstp/tyousakai/humanai/index.html)  
-
-
 
 ## 🏢 事例
 - [BRETT: Deep-learning robot](https://engineering.berkeley.edu/brett/)
