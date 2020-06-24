@@ -1,6 +1,6 @@
 on:
   push:
-    pathes:
+    paths:
       - 'chapters/**'
 
 name: Build README.md
