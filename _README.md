@@ -6,5 +6,4 @@
 #include "chapters/deep-learning-study.md"
 #include "chapters/law.md"
 #include "chapters/example.md"
-#include "chapters/movie.md"
 #include "chapters/reference.md"
