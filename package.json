@@ -4,7 +4,9 @@
   "description": "Deep Learning for General",
   "main": "index.js",
   "scripts": {
-    "build": "markdown-include markdown.json"
+    "build": "markdown-include markdown.json",
+    "honkit:serve": "honkit serve",
+    "honkit:build": "honkit build"
   },
   "repository": {
     "type": "git",
@@ -18,6 +20,8 @@
   },
   "homepage": "https://github.com/shgtkshruch/deep-learning-for-general#readme",
   "dependencies": {
-    "markdown-include": "^0.4.3"
+    "honkit": "^3.3.10",
+    "markdown-include": "^0.4.3",
+    "gitbook-plugin-anchors": "^0.7.1"
   }
 }

@@ -1,0 +1,5 @@
+{
+  "language": "ja",
+  "root": "./chapters",
+  "plugins": ["anchors"]
+}
