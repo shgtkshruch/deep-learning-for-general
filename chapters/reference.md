@@ -30,7 +30,7 @@
 - [ディープ・ラーニング最新技術情報 何故GPUはディープラーニングに向いているか](https://www.youtube.com/watch?v=1aHQ2tVVlj8)
 
 #### Google
-- [Google のデータサイエンティストが語る現場で使える機械学習入門](https://www.youtube.com/watch?v=PARsDyRJMWE)
+- [2017/06/29 Google のデータサイエンティストが語る現場で使える機械学習入門](https://www.youtube.com/watch?v=PARsDyRJMWE)
 
 ### Email Newsletter
 
