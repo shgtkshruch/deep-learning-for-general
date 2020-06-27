@@ -5,8 +5,7 @@
 - [徹底攻略 ディープラーニングG検定 ジェネラリスト 問題集](https://book.impress.co.jp/books/1118101076)
 - [AI白書 2020](https://www.ipa.go.jp/ikc/publish/ai_hakusyo.html)
 - [ゼロから作るDeep Learning ―Pythonで学ぶディープラーニングの理論と実装](https://www.oreilly.co.jp/books/9784873117584/)
-- [図解即戦力
-機械学習・ディープラーニングのしくみと技術がこれ1冊でしっかりわかる教科書](https://gihyo.jp/book/2019/978-4-297-10640-9)
+- [図解即戦力 機械学習・ディープラーニングのしくみと技術がこれ1冊でしっかりわかる教科書](https://gihyo.jp/book/2019/978-4-297-10640-9)
 - [なっとく！ディープラーニング](https://www.shoeisha.co.jp/book/detail/9784798166247)
 
 ### WEB
@@ -33,7 +32,6 @@
 - [2017/06/29 Google のデータサイエンティストが語る現場で使える機械学習入門](https://www.youtube.com/watch?v=PARsDyRJMWE)
 
 ### Email Newsletter
-
 - [Deep Learning Weekly](https://www.deeplearningweekly.com/)
 - [PyCoder’s Weekly](https://pycoders.com/)
 - [Kaggle Weekly](https://www.getrevue.co/profile/upura)
