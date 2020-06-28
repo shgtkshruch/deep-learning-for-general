@@ -1,8 +1,10 @@
-# :robot: 機械学習
+# 🤖 機械学習
+
+世の中の特定の事象について**データを解析し**、その結果から学習し、**判断や予測を行う**ためのアルゴリズムを使用する手法
 
 機械学習はデータが命。データから答えを探し、データからパターンを見つけ、データからストーリーを語る。
 機械学習の中心には「データ」があり、このデータ駆動によるアプローチは、「人」を中心とするアプローチからの脱却とも言える。
-重みパラメータの値をデータから自動で計算できる。（学習する）
+重みパラメータの値をデータから自動で計算できる。（ディープラーニング）
 
 ## 処理の流れ
 機械学習の処理は大きく「学習」と「推論」ステップに分かれる。
@@ -18,9 +20,9 @@
 
 ![](https://jp.mathworks.com/discovery/machine-learning/_jcr_content/mainParsys3/discoverysubsection_1965078453/mainParsys3/image_2109075398_cop.adapt.full.high.svg/1591624225922.svg)
 
-ref: [機械学習とは？これだけは知っておきたい3つのこと - MATLAB & Simulink](https://jp.mathworks.com/discovery/machine-learning.html)
+[機械学習とは？これだけは知っておきたい3つのこと - MATLAB & Simulink](https://jp.mathworks.com/discovery/machine-learning.html)
 
-### 代表的な「予測」アルゴリズム
+##### 代表的な「予測」アルゴリズム
 
 | アルゴリズム | 回帰 | 分類 | クラスタリング |
 | :---: | :---: | :---: | :---: |
@@ -33,6 +35,11 @@ ref: [機械学習とは？これだけは知っておきたい3つのこと - M
 | ニューラルネットワーク | o | o | x |
 | kNN | o | o | x |
 | k-means | x | x | o |
+
+##### scikit-learnのアルゴリズム・チートシート
+![](https://scikit-learn.org/stable/_static/ml_map.png)
+
+[Choosing the right estimator — scikit-learn 0.23.1 documentation](https://scikit-learn.org/stable/tutorial/machine_learning_map/index.html)
 
 ##### 教師あり学習
 教師データ（入力とそれに対応する正解ラベルの組）を使って予測値を正解ラベルに近づけることを目標に学習する手法
@@ -77,15 +84,25 @@ ref: [機械学習とは？これだけは知っておきたい3つのこと - M
 ### 正規化
 
 ##### 離散化
+![](https://miro.medium.com/max/2000/1*LGTAObYYj2-fdBMFLz30rw.jpeg)
+https://heartbeat.fritz.ai/hands-on-with-feature-engineering-techniques-variable-discretization-7deb6a5c6e27
+
 連続した値をある区分にわけること。
 
 ##### 対数変換
+![](https://www.researchgate.net/profile/Matthieu_Komorowski4/publication/308007227/figure/fig5/AS:405478883512321@1473685107077/[55-Example-of-the-effect-of-a-log-transformation-on-the-distribution-of-the-dataset.png)
+https://www.researchgate.net/figure/55-Example-of-the-effect-of-a-log-transformation-on-the-distribution-of-the-dataset_fig5_308007227
+
 値の log（対数）を取る（log に変換する）こと。
 
 正の値をもつ数値データにおいて、長い裾を短く圧縮し、小さい値を拡大することができる。
 機械学習では正規分布に近いデータが効果を発揮しやすいため、対数変換は有効な手段の一つ。
 
 ##### スケーリング
+![](https://kharshit.github.io/img/scaling.png)
+
+https://kharshit.github.io/blog/2018/03/23/scaling-vs-normalization
+
 データを 0 から 1 に収まるようにスケーリングすること。
 
 代表的なスケーリングの方法に「Min-Maxスケーリング」と「標準化」がある。
@@ -109,8 +126,12 @@ ref: [機械学習とは？これだけは知っておきたい3つのこと - M
 
 ## 過学習を抑制する手法
 
-##### 正則化 
-学習に用いる式に後を追加することによってとりうる重みの値の範囲を制限し、過度に重みが訓練データに対してのみ調整されることを防ぐ。
+##### 正則化
+線形回帰式で利用可能な手法。
+
+学習に用いる式に項を追加することによってとりうる重みの値の範囲を制限し、過度に重みが訓練データに対してのみ調整されることを防ぐ。
+
+（回帰）係数を大きくなりすぎないように自動で調整することで、予測結果を安定化させる。
 
 誤差関数にパラメータのノルムによる正則化（LASSOなど）を付け加える。
 
@@ -189,6 +210,9 @@ SVM においては誤りをどの程度許容するかの度合いをエンジ�
 計算量を現実的に抑えつつ、非線形分離を実現する。
 
 ### 決定木
+![](https://s3-ap-southeast-1.amazonaws.com/he-public-data/XOR%203df51ae5.png)
+
+https://www.hackerearth.com/ja/practice/machine-learning/machine-learning-algorithms/ml-decision-tree/tutorial/
 
 Yes or No で答えられる条件によって予測を行う手法。
 
@@ -222,7 +246,7 @@ Yes or No で答えられる条件によって予測を行う手法。
 
 ##### バギング
 ブートストラップ法を使って、全データから訓練データを複数組生成し、訓練データ1組1組に対してモデルを用意して並列して学習を行う。
-各モデルの結果平均の多数決をとって予測結果とする。
+各モデルの結果平均をとって予測結果とする。
 
 ##### ブースティング
 以下のフローで各モデルを逐次的に学習させる手法。
@@ -336,6 +360,11 @@ kNN法は柔軟にモデルを作れるが、実用上、以下の条件がな�
 ##### 訓練データ
 学習に用いる分の教師データ。
 
+##### 精度検証データ（validation data）
+「モデルの評価」で使うチューニング用データ。
+
+このデータを使って、正解ラベルと一致するかをチェックすることで、「対象の機械学習モデルがどのくらいの精度が出せるのか」というパフォーマンス（性能）を評価・検証する。
+
 ##### テストデータ
 未知データへの予測性能（汎化性能）を測るための教師データ。
 
@@ -408,16 +437,28 @@ RMSE と比較して外れ値に強いため、多くの外れ値が存在する
 
 実際に正であるものの中で、正だと予測できたデータの割合。
 
+「絶対にミスをしてはいけない」などのケースでは重視される指標。（ex. 医療検診）
+
 ##### 適合率 (Precision)
 `TP / (TP + FP)`
 
 予測が正の中で、実際に正だったデータの割合。
+
+「顧客の好みでない商品を提案したくない」などのケースでは重視される指標。（ex. WEBマーケティング）
 
 ##### F値 (f-score)
 `(2 x Recall x Precision) / (Recall + Precision)`
 
 適合率と再現率の調和平均。
 適合率のみあるいは再現率のみで判断すると、予測が偏っているときも値が高くなってしまうので、F値を用いることも多い。
+
+適合率と再現率のバランスが見れる。機械学習モデルの評価の際に、正解率と並んで最も使われる指標。
+
+##### PR曲線
+横軸を再現率(Recall)、縦軸を適合率/精度(Precision)として、データをプロットしたグラフを表したもの。
+
+PR曲線には適合率と再現率が一致する点があり、この点を「ブレークイーブンポイント(BEP)」と呼ぶ。
+この点では、適合率と再現率の関係をバランスよく保ったまま、コストと利益を最適化できるので、ビジネスにおいては重要な点となる。BEPが右上に遷移するほど良いモデルが構築できたと言える。
 
 ## 用語
 

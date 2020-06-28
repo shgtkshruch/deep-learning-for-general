@@ -1,4 +1,4 @@
-# :scroll: 歴史
+# 📜 歴史
 
 ##### [ENIAC (エニアック)](https://ja.wikipedia.org/wiki/ENIAC)
 1946年にアメリカで開発された世界初のコンピュータ。
