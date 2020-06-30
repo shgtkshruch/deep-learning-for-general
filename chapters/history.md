@@ -186,3 +186,52 @@ AI におけるオントロジーとは「概念化の明示的な仕様」（To
 
 ##### [モラベックのパラドックス](https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%A9%E3%83%99%E3%83%83%E3%82%AF%E3%81%AE%E3%83%91%E3%83%A9%E3%83%89%E3%83%83%E3%82%AF%E3%82%B9)
 子供のできることほど人工知能には難しい
+
+### ILSVRC (Image Large Scale Visual Recognition Challenge)
+2010年から始まった大規模画像認識の競技会。
+
+[ImageNet](http://www.image-net.org/index) は、画像に写っている物体名（クラス名）を付与したデータベース。
+
+[Overview - ImageNet](http://www.image-net.org/about-overview)
+
+#### 2012年
+
+ディープラーニングが脚光を浴びるきっかけになった年。
+
+結果: http://image-net.org/challenges/LSVRC/2012/results
+
+##### AlexNet
+
+畳み込み層とプーリング層を深くしていく構造
+
+
+#### 2014年
+
+層を深くしていくと計算量が非常に大きくなって学習が進まなくなるおちう問題があったが、小さなサイズの畳み込みフィルター（1x1, 3x3）を差し込んで次元（計算量）を削減するという工夫が取られるようになった。
+
+結果: http://image-net.org/challenges/LSVRC/2014/results
+
+##### GoogLeNet
+2014年のコンペで1位になったアーキテクチャ。
+
+このアーキテクチャは通常の入力層から出力層まで縦一直線な構造ではなく、インセプション構造と呼ばれる横にも層が広がる構成にすることで、並列計算を行いやすくしている。このため、Inceptionモデルとも呼ばれる。
+
+ref: https://arxiv.org/pdf/1409.4842.pdf
+
+##### VGG
+2014年のILSVRCで2位になった、オックスフォード大学のVGGチームのネットワーク
+
+#### 2015年
+
+結果: http://image-net.org/challenges/LSVRC/2015/results
+
+##### ResNet (Residual Network)
+2015年のILSVRCで優勝したネットワーク。
+
+それまでのネットワークでは層を深くしすぎると性能が落ちるという問題があったが、それを「スキップ構造」によって解決し、152層もの深さ(前年優勝のGoogLeNetでも22層)を実現した。
+
+以下のような理由で学習がうまくいっている。
+- 層が深くなっても、層を飛び越える部分は伝播しやすくなる
+- 様々な形のネットワークのアンサンブル学習になっている
+
+ref: https://arxiv.org/pdf/1512.03385v1.pdf

@@ -1,12 +1,20 @@
 # 📚 参考資料
 
 ## 書籍
+### 入門
+- [機械学習入門 ボルツマン機械学習から深層学習まで](https://www.ohmsha.co.jp/book/9784274219986/)
+- [なっとく！ディープラーニング](https://www.shoeisha.co.jp/book/detail/9784798166247)
+
+### G検定
 - [深層学習教科書 ディープラーニング G検定公式テキスト](https://www.shoeisha.co.jp/book/detail/9784798157559)
 - [徹底攻略 ディープラーニングG検定 ジェネラリスト 問題集](https://book.impress.co.jp/books/1118101076)
 - [AI白書 2020](https://www.ipa.go.jp/ikc/publish/ai_hakusyo.html)
+
+### アルゴリズム
 - [ゼロから作るDeep Learning ―Pythonで学ぶディープラーニングの理論と実装](https://www.oreilly.co.jp/books/9784873117584/)
+- [仕事ではじめる機械学習](https://www.oreilly.co.jp/books/9784873118215/)
 - [図解即戦力 機械学習・ディープラーニングのしくみと技術がこれ1冊でしっかりわかる教科書](https://gihyo.jp/book/2019/978-4-297-10640-9)
-- [なっとく！ディープラーニング](https://www.shoeisha.co.jp/book/detail/9784798166247)
+
 
 ## WEB
 - [ニコニコAIスクール](http://nico2.ai/)

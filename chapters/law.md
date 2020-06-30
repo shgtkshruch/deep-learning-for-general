@@ -53,7 +53,8 @@ Google Photos がアフリカ系の女性に「ゴリラ」とラベル付をし
 
 ##### [PAI(Partnership on AI)](https://www.partnershiponai.org/)
 
-##### アシロマAI原則
+##### [アシロマAI原則](https://futureoflife.org/ai-principles-japanese/)
+人類の存続の危機を回避することを目的とする組織、[Future of Life Institute（FLI）](https://futureoflife.org/) が、2017年2月にアメリカのアシロマで発表した、人工知能（AI）の研究課題、倫理と価値、長期的な課題を23にまとめたガイドライン。
 
 ##### [AIネットワーク社会推進会議](https://www.soumu.go.jp/main_sosiki/kenkyu/ai_network/index.html)
 
