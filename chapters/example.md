@@ -1,9 +1,14 @@
 # 🏢 事例・サービス
+
 ## 社会実装
 - [BRETT: Deep-learning robot](https://engineering.berkeley.edu/brett/)
 - [AlphaGo](https://ja.wikipedia.org/wiki/AlphaGo)
 - [Google DeepMind's Deep Q-learning playing Atari](https://deepmind.com/research/publications/playing-atari-deep-reinforcement-learning)
 - [分身ロボットカフェ DAWN](https://dawn2019.orylab.com/)
+- [Facenet](https://arxiv.org/abs/1503.03832)
+  - Google が開発した顔認識システム
+- [Tay](https://ja.wikipedia.org/wiki/Tay_(%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD))
+  - Microsoft が開発したチャットボット。間違った方向に学習が進み不適切な発言をするようになった
 
 ## Cloud
 
@@ -70,14 +75,3 @@ Facebook が開発している TensorFlow と双璧をなすフレームワー�
 Keras は TensorFlow のラッパー。
 
 ##### [Caffe](https://caffe.berkeleyvision.org/)
-
-## 計算
-Docker: https://hub.docker.com/r/continuumio/anaconda3
-
-```sh
-# Download Docker image
-docker pull continuumio/anaconda3
-
-# Start a Jupyter Notebook server and interact with Anaconda via your browser
-docker run -i -t -p 8888:8888 continuumio/anaconda3 /bin/bash -c "/opt/conda/bin/conda install jupyter -y --quiet && mkdir /opt/notebooks && /opt/conda/bin/jupyter notebook --notebook-dir=/opt/notebooks --ip='*' --port=8888 --no-browser --allow-root"
-```
