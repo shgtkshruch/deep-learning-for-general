@@ -7,7 +7,7 @@
 
 筆頭開発者であるアレックス・クリジェフスキーの名前から、「アレックスネット」と呼ばれている。
 
-### R-CNN
+### [R-CNN](https://ja.wikipedia.org/wiki/%E7%95%B3%E3%81%BF%E8%BE%BC%E3%81%BF%E3%83%8B%E3%83%A5%E3%83%BC%E3%83%A9%E3%83%AB%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AF)
 
 ![](https://media.geeksforgeeks.org/wp-content/uploads/20200219161502/RCNN1.png)
 https://www.geeksforgeeks.org/r-cnn-vs-fast-r-cnn-vs-faster-r-cnn-ml/
@@ -58,6 +58,13 @@ CNN では畳み込み演算によって畳み込みのカーネル幅（受容�
 ##### Mask RCNN
 
 ## 自然言語処理
+
+### 基本的なフロー
+
+1. 形態素解析を用いて、文章を単語などの最小単位（形態素）に切り分ける
+1. データのクレンジングにより、不要な文字列を取り除く
+1. BoW（Bag-of-Words)などを用いて、形態素解析をおこなったデータをベクトル形式に変換する
+1. TF-ID などを用いて、各単語の重要度を評価する
 
 ### 単語の意味を表すベクトル空間モデル
 
@@ -118,19 +125,27 @@ word2vec との変更点は、単語の表現に文字情報も含めること�
 
 ## 音声認識
 
-##### WaveNet
-音声合成と音声認識の両者を行うことができるモデル。
+##### [WaveNet](https://deepmind.com/blog/article/wavenet-generative-model-raw-audio)
+2016年に Google DeepMind 社により開発された、音声合成と音声認識の両者を行うことができるモデル。
 
-## 強化学習
+サンプリングされた系列点としての音声をそのまま DNN を用いて処理することにより、近似や調整などという作業が不要になった。
+自然な発音が実現されたため、音声合成のブレイクスルーとして注目されている。
 
-##### DQN (Deep Q-Network)
+##### [音声合成](https://ja.wikipedia.org/wiki/%E9%9F%B3%E5%A3%B0%E5%90%88%E6%88%90)
+与えられた文やデータから人が話す音声を合成する技術。
+
+近年劇的に発達し、人間が話しているものとほぼ同等に自然な音声を生成することが可能なレベルに達した。
+
+## [強化学習](https://ja.wikipedia.org/wiki/%E5%BC%B7%E5%8C%96%E5%AD%A6%E7%BF%92)
+
+##### [DQN (Deep Q-Network)](https://ja.wikipedia.org/wiki/DQN_(%E3%82%B3%E3%83%B3%E3%83%94%E3%83%A5%E3%83%BC%E3%82%BF))
 DeepMind が考案した、Q学習の行動価値関数を、深い構造を持ったニューラルネットワークで置き換えたモデル。
 
-##### MCTS (モンテカルロ木探索)
+##### [MCTS (モンテカルロ木探索)](https://ja.wikipedia.org/wiki/%E3%83%A2%E3%83%B3%E3%83%86%E3%82%AB%E3%83%AB%E3%83%AD%E6%9C%A8%E6%8E%A2%E7%B4%A2#%E3%83%A2%E3%83%B3%E3%83%86%E3%82%AB%E3%83%AB%E3%83%AD%E3%83%84%E3%83%AA%E3%83%BC%E6%A4%9C%E7%B4%A2_(MCTS))
 モンテカルロ法を使った木の探索。
 
 ヒューリスティクス（途中で不要な探索をやめ、ある程度の高確率で良い手を導ける）な探索アルゴリズムである。
 
-##### AlphaGo Zero
+##### [AlphaGo Zero](https://ja.wikipedia.org/wiki/AlphaGo_Zero)
 2017年10月に発表された、棋譜を全く必要としない、完全に自己対局（セルフプレイ）のみで学習していく碁のプログラム。
 従来の AlphaGo を超える強さとなった。
